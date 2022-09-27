@@ -2,7 +2,7 @@
 const minHeight = 1;     // altura mínima para subir
 const minAge = 10;     // edad mínima para subir 
 
-const person = {
+var person = {
     age: Math.random(),
     height: Math.random()
 }
