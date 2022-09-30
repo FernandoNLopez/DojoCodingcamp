@@ -1,0 +1,46 @@
+                      Fragmento de Código 1 : 
+
+    function displayContactInfo() {
+    var auntContactInfo = ["Paula", "Smith", "1234 Main Street", "St. Louis", "MO", 12345];
+    console.log(auntContactInfo);
+}
+
+
+Variables                  Valores
+                                                   
+auntContactInfo            ["Paula", "Smith", "1234 Main Street", "St. Louis", "MO", 12345]
+
+
+
+                     Fragmento de código 2 : 
+
+
+    function displayGrocerylist() {
+    var produce = ["manzanas", "naranjas"];
+    var frozen = ["brócoli", "helado"];
+    frozen.push("croquetas de papa");
+    console.log(frozen);
+}
+
+
+
+
+Variables                  Valores
+
+produce                    ["manzanas", "naranjas"]
+frozen                     ["brócoli", "helado"]  => ["brócoli", "helado", "croquetas de papa"]
+
+
+                        
+                 Fragmento de Código 3 : 
+
+    var movieLibrary = ["Bambi", "E.T.", "Toy Story"];
+    movieLibrary.push("Zoro");
+    movieLibrary[1] = "Beetlejuice";
+    console.log(movieLibrary);
+
+
+Variables                Valores 
+
+movieLibrary            ["Bambi", "E.T.", "Toy Story"]  => ["Bambi", "E.T.", "Toy Story", "Zoro"] => ["Bambi", "Beetlejuice", "Toy Story", "Zoro"]
+
